@@ -12,7 +12,7 @@ class Window(QWidget):
 
     def UI(self):
         self.image = QLabel(self)
-        self.image.setPixmap(QPixmap('images/Smiley.jpg'))
+        self.image.setPixmap(QPixmap('../images/Smiley.jpg'))
         self.image.move(80, 50)
         removebtn = QPushButton('Remove', self)
         removebtn.move(290, 380)

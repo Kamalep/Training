@@ -18,10 +18,11 @@ class Window(QWidget):
         self.colorLabel.resize(250, 250)
         self.colorLabel.setStyleSheet('background-color:red')
         self.colorLabel.move(50, 20)
-        ############### Button ###############
+        ############### Buttons ###############
         btnStart = QPushButton('Start', self)
         btnStart.move(180, 280)
         btnStart.clicked.connect(self.start)
+        btnStart.setStyle()
         btnStop = QPushButton('Stop', self)
         btnStop.move(90, 280)
         btnStop.clicked.connect(self.stop)
