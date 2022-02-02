@@ -85,7 +85,7 @@ class Window(QWidget):
 
         self.imgVS = QLabel(self)
         self.imgVS.setPixmap(QPixmap('../images/vs.jpg'))
-        self.imgVS.move(250, 165)
+        self.imgVS.move(258, 165)
 
         ########### kTimer ###########
         self.timer = QTimer(self)
