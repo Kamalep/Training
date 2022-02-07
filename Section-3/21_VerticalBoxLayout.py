@@ -7,9 +7,9 @@ class Window(QWidget):
         super().__init__()
         self.setWindowTitle('Vertical Box Layout')
         self.setGeometry(350, 150, 400, 400)  # x, y, width, high
-        self.UI()
+        self.user_interface()
 
-    def UI(self):
+    def user_interface(self):
         vbox = QVBoxLayout()
         btn1 = QPushButton('Save')
         btn2 = QPushButton('Exit')

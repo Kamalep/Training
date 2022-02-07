@@ -9,9 +9,9 @@ class Window(QWidget):
         super().__init__()
         self.setWindowTitle('Slider Widget')
         self.setGeometry(350, 150, 600, 500)  # x, y, width, high
-        self.UI()
+        self.user_interface()
 
-    def UI(self):
+    def user_interface(self):
         vbox = QVBoxLayout()
         # self.slider = QSlider()
         # self.slider.setMaximum(100)

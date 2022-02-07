@@ -8,9 +8,9 @@ class Window(QWidget):
         super().__init__()
         self.setGeometry(50, 50, 500, 500)  # x, y, width, high
         self.setWindowTitle('using Images')
-        self.UI()
+        self.user_interface()
 
-    def UI(self):
+    def user_interface(self):
         self.image = QLabel(self)
         self.image.setPixmap(QPixmap('../images/Smiley.jpg'))
         self.image.move(80, 50)

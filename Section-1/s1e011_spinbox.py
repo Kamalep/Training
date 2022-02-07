@@ -10,9 +10,9 @@ class Window(QWidget):
         super().__init__()
         self.setGeometry(250, 150, 500, 500)  # x, y, width, high
         self.setWindowTitle('Using Spin Box')
-        self.UI()
+        self.user_interface()
 
-    def UI(self):
+    def user_interface(self):
         self.spinBox = QSpinBox(self)
         self.spinBox.move(150, 100)
         self.spinBox.setFont(font)  # use variable font as parameter

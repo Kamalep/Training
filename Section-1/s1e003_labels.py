@@ -7,9 +7,9 @@ class Window(QWidget):
         super().__init__()
         self.setGeometry(50, 50, 350, 550)  # x, y, width, high
         self.setWindowTitle('using labels')
-        self.UI()
+        self.user_interface()
 
-    def UI(self):
+    def user_interface(self):
         text1 = QLabel('Hello Python', self)
         text2 = QLabel('Second Label', self)
 

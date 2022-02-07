@@ -7,9 +7,9 @@ class Window(QWidget):
         super().__init__()
         self.setWindowTitle('Tab Widget')
         self.setGeometry(350, 150, 600, 600)  # x, y, width, high
-        self.UI()
+        self.user_interface()
 
-    def UI(self):
+    def user_interface(self):
         mainlayout = QVBoxLayout()
         self.tabs = QTabWidget()
 

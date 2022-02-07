@@ -7,9 +7,9 @@ class Window(QWidget):
         super().__init__()
         self.setGeometry(50, 50, 500, 500)  # x, y, width, high
         self.setWindowTitle('List Widget')
-        self.UI()
+        self.user_interface()
 
-    def UI(self):
+    def user_interface(self):
         self.addRecord = QLineEdit(self)
         self.addRecord.move(100, 50)
         self.lstWidget = QListWidget(self)

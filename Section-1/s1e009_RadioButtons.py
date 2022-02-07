@@ -8,9 +8,9 @@ class Window(QWidget):
         super().__init__()
         self.setGeometry(250, 150, 500, 500)  # x, y, width, high
         self.setWindowTitle('using Radio Buttons')
-        self.UI()
+        self.user_interface()
 
-    def UI(self):
+    def user_interface(self):
         self.name = QLineEdit(self)
         self.name.move(150, 50)
         self.name.setPlaceholderText('Enter name')

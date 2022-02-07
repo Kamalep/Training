@@ -7,9 +7,9 @@ class Window(QWidget):
         super().__init__()
         self.setWindowTitle('Form Layout')
         self.setGeometry(350, 150, 400, 400)  # x, y, width, high
-        self.UI()
+        self.user_interface()
 
-    def UI(self):
+    def user_interface(self):
         formlayout = QFormLayout()
         # formlayout.setRowWrapPolicy(QFormLayout.WrapAllRows) # put label up edited line
         name_txt = QLabel('Name :')

@@ -10,9 +10,9 @@ class Window(QWidget):
         super().__init__()
         self.setGeometry(250, 150, 500, 500)  # x, y, width, high
         self.setWindowTitle('Using Text editor')
-        self.UI()
+        self.user_interface()
 
-    def UI(self):
+    def user_interface(self):
         self.editor = QTextEdit(self)
         self.editor.move(150, 80)
         self.editor.setAcceptRichText(True)  # allow to adding text format such as Blod,underline...

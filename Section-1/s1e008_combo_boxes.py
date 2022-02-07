@@ -8,9 +8,9 @@ class Window(QWidget):
         super().__init__()
         self.setGeometry(250, 150, 500, 500)  # x, y, width, high
         self.setWindowTitle('using Combo box')
-        self.UI()
+        self.user_interface()
 
-    def UI(self):
+    def user_interface(self):
         self.combo = QComboBox(self)
         self.combo.move(150, 100)
         btn = QPushButton('Save', self)

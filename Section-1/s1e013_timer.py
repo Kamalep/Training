@@ -11,9 +11,9 @@ class Window(QWidget):
         super().__init__()
         self.setGeometry(250, 150, 350, 350)  # x, y, width, high
         self.setWindowTitle('Timer Widget')
-        self.UI()
+        self.user_interface()
 
-    def UI(self):
+    def user_interface(self):
         self.colorLabel = QLabel(self)
         self.colorLabel.resize(250, 250)
         self.colorLabel.setStyleSheet('background-color:red')
@@ -22,7 +22,7 @@ class Window(QWidget):
         btnStart = QPushButton('Start', self)
         btnStart.move(180, 280)
         btnStart.clicked.connect(self.start)
-        btnStart.setStyle()
+        #btnStart.setStyle()
         btnStop = QPushButton('Stop', self)
         btnStop.move(90, 280)
         btnStop.clicked.connect(self.stop)

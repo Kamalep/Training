@@ -10,9 +10,9 @@ class Window(QWidget):
         super().__init__()
         self.setGeometry(250, 150, 500, 500)  # x, y, width, high
         self.setWindowTitle('using MessageBox Widget')
-        self.UI()
+        self.user_interface()
 
-    def UI(self):
+    def user_interface(self):
         btn = QPushButton('Click ME:', self)
         btn.move(200, 150)
         # we change button font

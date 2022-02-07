@@ -7,9 +7,9 @@ class Window(QWidget):
         super().__init__()
         self.setGeometry(50, 50, 350, 350)  # x, y, width, high
         self.setWindowTitle('Using QLineEdit')
-        self.UI()
+        self.user_interface()
 
-    def UI(self):
+    def user_interface(self):
         self.nameTextBox = QLineEdit(self)
         self.nameTextBox.move(120, 50)
         self.nameTextBox.setPlaceholderText('Enter Name')

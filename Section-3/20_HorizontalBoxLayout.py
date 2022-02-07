@@ -7,9 +7,9 @@ class Window(QWidget):
         super().__init__()
         self.setWindowTitle('Horizontal Box Layout')
         self.setGeometry(350, 150, 400, 400)  # x, y, width, high
-        self.UI()
+        self.user_interface()
 
-    def UI(self):
+    def user_interface(self):
         hbox = QHBoxLayout()
         btn1 = QPushButton('Button 1')
         btn2 = QPushButton('Button 2')

@@ -8,9 +8,9 @@ class Window(QWidget):
         super().__init__()
         self.setGeometry(50, 50, 500, 500)  # x, y, width, high
         self.setWindowTitle('using Check boxes')
-        self.UI()
+        self.user_interface()
 
-    def UI(self):
+    def user_interface(self):
         self.name = QLineEdit(self)
         self.surname = QLineEdit(self)
         self.name.move(150, 50)

@@ -7,9 +7,9 @@ class Window(QWidget):
         super().__init__()
         self.setWindowTitle('Vertical and Horizontal Layout')
         self.setGeometry(350, 150, 400, 400)  # x, y, width, high
-        self.UI()
+        self.user_interface()
 
-    def UI(self):
+    def user_interface(self):
         mainlayout = QVBoxLayout()
         toplayout = QHBoxLayout()
         bottomlayout = QHBoxLayout()

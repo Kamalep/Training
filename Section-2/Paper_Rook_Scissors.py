@@ -31,9 +31,9 @@ class Window(QWidget):
         self.setWindowTitle('Rock Paper Scissors Game')
         self.setWindowIcon(QIcon('../images/Vredcolor100.png'))
         self.setStyleSheet("background-color: white")
-        self.UI()
+        self.user_interface()
 
-    def UI(self):
+    def user_interface(self):
         # qButtons
         btnExt = QPushButton('Exit', self)
         btnExt.move(442, 442)

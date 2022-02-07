@@ -8,9 +8,9 @@ class Window(QWidget):
         super().__init__()
         self.setGeometry(50, 50, 350, 350)
         self.setWindowTitle('Using Labels')
-        self.UI()
+        self.user_interface()
 
-    def UI(self):
+    def user_interface(self):
         self.txt = QLabel('Text', self)
         self.txt.move(170, 50)
         enterbtn = QPushButton('Enter', self)
