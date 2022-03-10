@@ -82,26 +82,25 @@ class add_emp_win(QWidget):
         # Bottom layout widgets
         self.lblname = QLabel('Name :')
         self.name_entry = QLineEdit()
-        # self.name_entry.setPlaceholderText('Enter Employee name')
-        # self.lblsurname = QLabel('Surname :')
-        # self.surname_entry = QLineEdit()
-        # self.surname_entry.setPlaceholderText('Enter Employee surname')
-        # self.lblphone = QLabel('Phone :')
-        # self.phone_entry = QLineEdit()
-        # self.phone_entry.setPlaceholderText('Enter Employee Phone namber')
-        # self.lblemail = QLabel('Email :')
-        # self.email_entry = QLineEdit()
-        # self.email_entry.setPlaceholderText('Enter Employee Email')
-        # self.lblimg = QLabel('Picture :')
-        # self.btnimg = QPushButton('Browse')
-        # self.lbladdress = QLabel('Address :')
-        # self.address_editor = QTextEdit()
-        # self.btnadd = QPushButton('Add')
+        self.name_entry.setPlaceholderText('Enter Employee name')
+        self.lblsurname = QLabel('Surname :')
+        self.surname_entry = QLineEdit()
+        self.surname_entry.setPlaceholderText('Enter Employee surname')
+        self.lblphone = QLabel('Phone :')
+        self.phone_entry = QLineEdit()
+        self.phone_entry.setPlaceholderText('Enter Employee Phone namber')
+        self.lblemail = QLabel('Email :')
+        self.email_entry = QLineEdit()
+        self.email_entry.setPlaceholderText('Enter Employee Email')
+        self.lblimg = QLabel('Picture :')
+        self.btnimg = QPushButton('Browse')
+        self.lbladdress = QLabel('Address :')
+        self.address_editor = QTextEdit()
+        self.btnadd = QPushButton('Add')
 
     def layouts(self):
         # Creating main layout
         self.main_layout = QVBoxLayout()
-
         self.top_layout = QVBoxLayout()
         self.bottom_layout = QVBoxLayout()
 
@@ -116,16 +115,16 @@ class add_emp_win(QWidget):
         self.top_layout.addStretch()
         self.top_layout.setContentsMargins(120, 20, 10, 30)  # left, top , right, bottom
         # Bottom layout
-        self.bottom_layout.addR
-        # self.bottom_layout.addRow(self.lblname, self.name_entry)
-        # self.bottom_layout.addRow(self.lblsurname, self.surname_entry)
-        # self.bottom_layout.addRow(self.lblphone, self.phone_entry)
-        # self.bottom_layout.addRow(self.lblemail, self.email_entry)
-        # self.bottom_layout.addRow(self.lblimg, self.btnimg)
-        # self.bottom_layout.addRow(self.lbladdress, self.address_editor)
-        # self.bottom_layout.addRow(self.lblemail, self.email_entry)
-        #self.bottom_layout.addRow("", self.btnadd)
-        # sitting main layout for window
+        self.bottom_layout.add
+        self.bottom_layout.addRow(self.lblname, self.name_entry)
+        self.bottom_layout.addRow(self.lblsurname, self.surname_entry)
+        self.bottom_layout.addRow(self.lblphone, self.phone_entry)
+        self.bottom_layout.addRow(self.lblemail, self.email_entry)
+        self.bottom_layout.addRow(self.lblimg, self.btnimg)
+        self.bottom_layout.addRow(self.lbladdress, self.address_editor)
+        self.bottom_layout.addRow(self.lblemail, self.email_entry)
+        self.bottom_layout.addRow("", self.btnadd)
+        sitting main layout for window
         self.setLayout(self.main_layout)
 
 
