@@ -101,9 +101,8 @@ class add_emp_win(QWidget):
     def layouts(self):
         # Creating main layout
         self.main_layout = QVBoxLayout()
-
         self.top_layout = QVBoxLayout()
-        self.bottom_layout = QFormLayout()
+        self.bottom_layout = QVBoxLayout()
 
         # Creating child layout to main layout
         self.main_layout.addLayout(self.top_layout)
@@ -116,16 +115,16 @@ class add_emp_win(QWidget):
         self.top_layout.addStretch()
         self.top_layout.setContentsMargins(120, 20, 10, 30)  # left, top , right, bottom
         # Bottom layout
-        # self.bottom_layout.addRow(self.lblname)
+        self.bottom_layout.add
         self.bottom_layout.addRow(self.lblname, self.name_entry)
         self.bottom_layout.addRow(self.lblsurname, self.surname_entry)
         self.bottom_layout.addRow(self.lblphone, self.phone_entry)
         self.bottom_layout.addRow(self.lblemail, self.email_entry)
         self.bottom_layout.addRow(self.lblimg, self.btnimg)
         self.bottom_layout.addRow(self.lbladdress, self.address_editor)
+        self.bottom_layout.addRow(self.lblemail, self.email_entry)
         self.bottom_layout.addRow("", self.btnadd)
-        ##sitting main layout for window
-
+        sitting main layout for window
         self.setLayout(self.main_layout)
 
 
